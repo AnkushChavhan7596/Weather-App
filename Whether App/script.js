@@ -23,6 +23,7 @@ overlay.addEventListener('click',()=>{
     overlay.classList.toggle("overlay-back");
 });
 
+// Hambergur functionality
 hambergur.addEventListener("click",()=>{
     for(let i=0; i<hambergur_bars.length; i++)
     {
@@ -36,7 +37,6 @@ hambergur.addEventListener("click",()=>{
 
 
 
-// Hambergur functionality
 
 
 
@@ -72,6 +72,10 @@ const fetchData = (city)=>{
         {
             weatherImg = "./Images/fog.png";
 
+        }
+        else if(data.weather[0].main == "Mist")
+        {
+            weatherImg =  "./Images/foggy.png";
         }
         else{
             weatherImg = "./Images/sun.png";
@@ -410,3 +414,12 @@ searchBtn.addEventListener("click",()=>{
     let city = searchBox.value;
     fetchData(`${city}`);
 });
+
+
+window.addEventListener('keypress',(e)=>
+{
+    if(e.key == "Enter")
+    {
+        fetchData(searchBox.value);
+    }
+})

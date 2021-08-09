@@ -162,7 +162,7 @@ body{
     position: absolute;
     top:40%;
     left:-50px;
-    animation: cir1 3s linear infinite;
+    animation: cir1 2s linear infinite;
     z-index: -20;
 }
 
@@ -174,7 +174,7 @@ body{
     position: absolute;
     top:40%;
     left: 50px;
-    animation: cir2 3s linear infinite;
+    animation: cir2 2s linear infinite;
     animation-delay: 1s;
     z-index: -20;
 }
@@ -187,7 +187,7 @@ body{
     position: absolute;
     top:45%;
     left:100px;
-    animation: cir3 3s linear infinite;
+    animation: cir3 2s linear infinite;
     animation-delay: .5s;
     z-index: -20;
 }
