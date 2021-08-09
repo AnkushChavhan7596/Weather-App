@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="overlay"></div>
+  
+    <section class="hero-section">
+            <nav class="navbar">
+                <a href="#" class="logo-link">
+                    <div class="navbar--logo-cont">
+                            <div class="navbar--logo-pic-cont">
+                                <img src="./Images/logo.png" alt="">
+                            </div>
+                            <div class="navbar--logo-name-cont">
+                                <h2>Weather App</h2>
+                            </div>
+                    </div>
+                </a>
+
+                <div class="navbar--menu-cont">
+                    <ul class="navbar--menu-ul">
+                        <li><a href="#" class="navbar--menu-link" id="active-link">Home</a></li>
+                        <li><a href="#" class="navbar--menu-link" id="humidity">Humidity</a></li>
+                        <li><a href="#" class="navbar--menu-link" id="speed">Speed</a></li>
+                        <li><a href="#" class="navbar--menu-link" id="sunrise-sunset">Sunset/Sunrise</a></li>
+                        <li><a href="#" class="navbar--menu-link" id="lat-alt">Lat/Alt</a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar--searchbox-cont">
+                    <div class="navbar--searchbox-input-cont">
+                        <input type="text" id="search-box" placeholder="Enter City" value="Amravati">
+                        <i class="fas fa-search" id="search_btn"></i>
+                    </div>
+                </div>
+
+
+
+                <div class="hambergur">
+                      <div class="bar1 bar"></div>
+                      <div class="bar2 bar"></div>
+                      <div class="bar3 bar"></div>
+                </div>
+            </nav>
+
+
+
+            <div class="weather--details-cont">
+                 <!-- <div class="weather--details-city-heading-cont">
+                     <h2 class="weather--details-city-heading">
+                         Amravati
+                     </h2>
+                 </div>
+                 
+                 <div class="weather--details-img-cont">
+                     <img src="./Images/logo.png" alt="">
+                 </div>
+
+                 <div class="weather--details-temp-cont">
+                     <h1 class="weather--details-temp"><span id="temp">29</span><sup id="degree-icon">o</sup>C</h1>
+                 </div>
+                 
+                 <div class="weather--details-wather-cont">
+                     <h4 class="weather--details-wather">Cloudy</h4>
+                 </div>
+
+                 <div class="weather--details-min-max-cont">
+                     <h3>Min: <span id="min-temp">29</span><sup class="min-max-degree-icon">o</sup>C</h3>
+                     <h3>Max: <span id="max-temp">29</span><sup class="min-max-degree-icon">o</sup>C</h3>
+                 </div>
+
+                 <div class="weather--details-date-cont">
+                     <p><span id="day">Sunday</span> , <span id="month">August</span><span id="date"> 15 , </span><span id="year">2021</span></p>
+                 </div>
+
+                <div class="circle1 circle"></div>
+                <div class="circle2 circle"></div>
+                <div class="circle3 circle"></div>
+            </div> -->
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
